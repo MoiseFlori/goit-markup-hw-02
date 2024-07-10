@@ -80,7 +80,6 @@ a.logo .studio {
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
-  
 }
 .first-section .order-service-button:hover,
 .first-section .order-service-button:focus {
@@ -96,7 +95,7 @@ a.logo .studio {
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #2e2f42; 
+  color: #2e2f42;
 }
 
 .section-p {
@@ -106,31 +105,34 @@ a.logo .studio {
   letter-spacing: 0.02em;
   color: #434455;
 }
+
 .third-section {
   background-color: #f4f4fd;
 }
 
-.third-section-title{
+.third-section-title {
   font-size: 36px;
-  line-height: 1.11px;
+  line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color:  #2e2f42;
+  color: #2e2f42;
 }
 
 .third-section .third-section-img {
   width: 264px;
   height: 260px;
-  background-color: #FFFFFF
 }
-
+.third-section .first-item {
+  background-color: #ffffff;
+}
 .fourth-section .fourth-section-title {
   text-align: center;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  color: #2e2f42;
 }
 .fourth-section img {
   width: 360px;
