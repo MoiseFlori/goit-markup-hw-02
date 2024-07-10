@@ -30,7 +30,7 @@ a.logo .studio {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   text-decoration: none;
   color: #2e2f42;
 }
@@ -38,14 +38,20 @@ a.logo .studio {
 .nav-list .nav-link:focus {
   color: #404bbf;
 }
-.address-info a {
+.address-info {
+  font-style: normal;
+}
+.address-link {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   color: #434455;
   text-decoration: none;
-  font-style: normal;
+}
+.address-link:hover,
+.address-link:focus {
+  color: #404bbf;
 }
 .first-section {
   color: #ffffff;
@@ -72,6 +78,9 @@ a.logo .studio {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+  
 }
 .first-section .order-service-button:hover,
 .first-section .order-service-button:focus {
@@ -83,11 +92,11 @@ a.logo .studio {
 
 .section-subtitle {
   font-weight: 500;
-  font-size: 36px;
-  line-height: 1.11;
+  font-size: 20px;
+  line-height: 1.2;
   text-align: center;
   letter-spacing: 0.02em;
-  text-transform: capitalize;
+  color: #2e2f42; 
 }
 
 .section-p {
@@ -101,9 +110,19 @@ a.logo .studio {
   background-color: #f4f4fd;
 }
 
+.third-section-title{
+  font-size: 36px;
+  line-height: 1.11px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color:  #2e2f42;
+}
+
 .third-section .third-section-img {
   width: 264px;
   height: 260px;
+  background-color: #FFFFFF
 }
 
 .fourth-section .fourth-section-title {
@@ -125,11 +144,9 @@ a.logo .studio-footer {
   color: #f4f4fd;
 }
 .footer-p {
-font-size: 16px;
-font-weight: 400;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #F4F4FD;;
-
-
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
 }
