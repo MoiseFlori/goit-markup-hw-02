@@ -1,0 +1,116 @@
+body {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  color: #2e2f42;
+}
+
+header {
+  border-bottom: 1px solid #e7e9fc;
+}
+.nav-list .nav-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2%;
+}
+.address-info {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2%;
+  color: #434455;
+}
+.first-section {
+  color: white;
+  background-color: #2e2f42;
+}
+h1 {
+  font-size: 56px;
+  line-height: 60px;
+  letter-spacing: 2%;
+  text-align: center;
+}
+
+.first-section .order-service-button {
+  background-color: #4d5ae5;
+  width: 169px;
+  height: 56px;
+  cursor: pointer;
+}
+.second-section .hidden {
+  visibility: hidden;
+}
+.second-section h3 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+}
+.second-section p {
+
+  font-size: 16px;
+  line-height: 24px;
+}
+.third-section {
+  background-color: #f4f4fd;
+}
+.third-section h2 {
+  font-size: 36px;
+  line-height: 40px;
+  text-align: center;
+}
+
+.third-section img {
+  width: 264px;
+  height: 260px;
+}
+
+.third-section h3 {
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.third-section p {
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.fourth-section h2 {
+  text-align: center;
+  font-size: 36px;
+  line-height: 40px;
+}
+.fourth-section img {
+  width: 360px;
+  height: 300px;
+}
+.fourth-section h3{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.fourth-section p{
+ 
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.footer {
+  background-color: #2E2F42;
+
+}
+.footer a{
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+}
+.footer p{
+  font-size: 16px;
+  line-height: 24;
+  color: #F4F4FD;
+  
+
+
+}
