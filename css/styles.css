@@ -78,9 +78,6 @@ a.logo .studio {
 .first-section .order-service-button:focus {
   background-color: #404bbf;
 }
-.second-section .hidden {
-  visibility: hidden;
-}
 
 .section-subtitle {
   font-weight: 500;
